@@ -5,6 +5,6 @@ fetch(url_Api)
 .then((res)=>{
     console.log(res)
     for (let index = 0; index < res.length; index++) {
-        document.write(res[index].nombre)
+      const cardBody=element
     }
 })
